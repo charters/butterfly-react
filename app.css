@@ -1,0 +1,43 @@
+body {
+	background: #edeff0;
+}
+
+.leaderboard {
+	margin: auto;
+	margin-top: 70px;
+	width: 60%;
+	background:#ba1073;
+	border-radius: 25px;
+	border: 1px solid #ba1073;
+	padding: 20px 0px;
+}
+
+.header {
+	margin-bottom: 10px;
+}
+
+.header h1 {
+	font-family: 'Hind', sans-serif;
+	margin:0px;
+	text-transform: uppercase;
+}
+
+.counselor {
+	font-family: 'Open Sans', sans-serif;
+	background: #edeff0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.counselor-nickname {
+	width: 70%;
+	display: inline-block;
+}
+
+.counselor-money {
+	width: 30%;
+	text-align: right;
+	display: inline-block;
+}
