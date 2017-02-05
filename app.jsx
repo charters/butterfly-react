@@ -33,6 +33,24 @@ Header.propTypes = {
 	title: React.PropTypes.string.isRequired,
 };
 
+var Money = React.createClass({
+	propTypes: {},
+
+	getInitialState: function () {
+		return {
+			money: 500,
+		}
+	},
+
+	render: function () {
+		return (
+			<div className = "counselor-money">
+				${this.state.money}
+			</div>
+		);
+	}
+});
+
 function Counselor(props) {
 	return(
 		<div className = "counselor">
@@ -40,9 +58,8 @@ function Counselor(props) {
 				{props.name}
 			</div>
 
-			<div className = "counselor-money">
-				${props.money}
-			</div>
+			<Money />
+			
 		</div>
 		);
 }
